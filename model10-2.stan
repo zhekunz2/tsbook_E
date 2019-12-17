@@ -1,6 +1,3 @@
-// model10-2.stan
-// Model: specification (local level model with unknown parameters)
-
 data{
   int<lower=1>   t_max;    // Time series length
   vector[t_max]   y;       // Observations
